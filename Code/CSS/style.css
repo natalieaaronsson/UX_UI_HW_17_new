@@ -1,12 +1,23 @@
+/** Nav */
 
 .inline-block {
-    display: inline-block;
+    display: inline;
     vertical-align: top;
+    margin-left: auto;
+    margin:10px;
+    padding:0;
+    list-style:none;
+    //*width:525px;*/
 }
 .logo {
     width: 23%;
     padding: 1%;
+    padding-top: 100px;
     text-align: center;
+    margin-left: auto;
+}
+h2{
+    margin-right: auto;
 }
 nav {
     width: 73%;
@@ -17,22 +28,27 @@ ul{
     margin-right: auto;
 }
 
+/** Hero Header */
 
-.heroImg{
-    height: 600px;
-    padding: 25px;
+heroImg {
+    height: 300px;
+    padding: 10px;
 }
 .content{
     width: 500px;
     margin: 0 auto;
 }
 
+/** Footer */
 
-footer{
-    background-color: #FBFBFB;
-    *UL/LI*
-    ul{
-        display: inline-block;
-        vertical-align: top;
-    }
+.footer {
+  vertical-align: bottom;
+  display: inline-block;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FBFBFB;
+  color: black;
+  text-align: center;
 }
