@@ -7,10 +7,10 @@
     margin:10px;
     padding:0;
     list-style:none;
-    //*width:525px;*/
+    /* width:525px; */
 }
 .logo {
-    width: 23%;
+    width: 5%;
     padding: 1%;
     padding-top: 100px;
     text-align: center;
@@ -30,12 +30,12 @@ ul{
 
 /** Hero Header */
 
-heroImg {
+.heroImg {
     height: 300px;
     padding: 10px;
 }
 .content{
-    width: 500px;
+    width: 1300px;
     margin: 0 auto;
 }
 
